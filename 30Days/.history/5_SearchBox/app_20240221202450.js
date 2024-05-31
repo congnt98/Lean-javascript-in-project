@@ -1,1 +1,0 @@
-var btnSearch = document.querySelector('.search')

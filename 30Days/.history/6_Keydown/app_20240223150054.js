@@ -1,1 +1,0 @@
-var eCode = document.querySelector('.detail .key p:fir')

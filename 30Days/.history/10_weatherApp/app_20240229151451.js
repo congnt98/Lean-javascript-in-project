@@ -1,5 +1,0 @@
-var search = document.querySelector('.search')
-var search = document.querySelector('.search')
-var search = document.querySelector('.search')
-var search = document.querySelector('.search')
-var search = document.querySelector('.search')
