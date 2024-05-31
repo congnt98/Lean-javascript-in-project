@@ -1,0 +1,1 @@
+var btnClose = document.querySelector('')

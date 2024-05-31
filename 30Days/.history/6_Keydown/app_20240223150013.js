@@ -1,0 +1,1 @@
+var eCode = document.querySelector

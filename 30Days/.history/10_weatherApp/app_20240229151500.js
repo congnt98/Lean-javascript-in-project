@@ -1,0 +1,5 @@
+var search = document.querySelector('.search')
+var city = document.querySelector('.search')
+var search = document.querySelector('.search')
+var search = document.querySelector('.search')
+var search = document.querySelector('.search')

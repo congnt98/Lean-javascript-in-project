@@ -1,0 +1,60 @@
+:root {
+    --success-color: #2691d9;
+    --error-color: #e74c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+    background: url(./image/cold.jpg) no-repeat center/cover;
+    border-image: fill 0 linear-gradient(#0001, #000);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+#weather {
+    padding: 30px 20px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.search {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+@media (max-width:991px) {
+    .box .detail {
+        --gap: 20px;
+        --colums: 2;
+        --row-gap: 20px
+    }
+}
+
+@media (max-width:575px) {
+    .box .detail {
+        --gap: 0;
+        --colums: 1;
+        --row-gap: 20px
+    }
+}

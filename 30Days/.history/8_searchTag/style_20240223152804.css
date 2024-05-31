@@ -1,0 +1,44 @@
+:root {
+    --pink-color: #f26a87;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #8cc84c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+}
+
+@media (max-width:991px) {
+    .box .detail {
+        --gap: 20px;
+        --colums: 2;
+        --row-gap: 20px
+    }
+}
+
+@media (max-width:575px) {
+    .box .detail {
+        --gap: 0;
+        --colums: 1;
+        --row-gap: 20px
+    }
+}

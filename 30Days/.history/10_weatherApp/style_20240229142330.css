@@ -1,0 +1,50 @@
+:root {
+    --success-color: #2691d9;
+    --error-color: #e74c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(./image/cold.jpg) no-repeat center/cover;
+    border-image: fill 0 ;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+.weather {}
+
+@media (max-width:991px) {
+    .box .detail {
+        --gap: 20px;
+        --colums: 2;
+        --row-gap: 20px
+    }
+}
+
+@media (max-width:575px) {
+    .box .detail {
+        --gap: 0;
+        --colums: 1;
+        --row-gap: 20px
+    }
+}

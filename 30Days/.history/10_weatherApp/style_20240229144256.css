@@ -1,0 +1,95 @@
+:root {
+    --success-color: #2691d9;
+    --error-color: #e74c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+    background: url(./image/cold.jpg) no-repeat center/cover;
+    border-image: fill 0 linear-gradient(#0001, #000);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+#weather {
+    padding: 30px 20px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+
+.search {
+    width: 100%;
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0 15px 0 15px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    font-size: 19px;
+}
+
+
+.search:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px 0 15px 0;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px 0;
+}
+
+.content .capital {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+}
+
+.temperature {
+    font-size: 65px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 2px 2px ;
+}
+
+@media (max-width:991px) {
+    .box .detail {
+        --gap: 20px;
+        --colums: 2;
+        --row-gap: 20px
+    }
+}
+
+@media (max-width:575px) {
+    .box .detail {
+        --gap: 0;
+        --colums: 1;
+        --row-gap: 20px
+    }
+}

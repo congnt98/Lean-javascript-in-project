@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #f2726a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #4daf54, #3d8888);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+}
+
+.warapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.btn-modal-open {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.modal__inner {}
+
+.modal__header {}
+
+.modal__body {}
+
+.modal__footer {}

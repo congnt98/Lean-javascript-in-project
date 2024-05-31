@@ -1,0 +1,45 @@
+:root {
+    --pink-color: #f26a87;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #17a2b8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+}
+
+.hide {
+    display: none;
+}
+
+.warapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alert {
+    font-size: 40px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #17a2b8;
+    outline: none;
+    border: none;
+}
+
+.box res
